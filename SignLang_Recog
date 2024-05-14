@@ -80,7 +80,7 @@ def push_to_arduino(text):
     smart_glass.write(TwD.encode())
 
 
-model = keras.models.load_model("D:\AI_challenge\support_AI_changlle_2024\save.h5")
+model = keras.models.load_model("save.h5")
 # 1. New detection variables
 sequence = []
 sentence = []
