@@ -1,0 +1,17 @@
+# from serial import Serial
+# from unidecode import unidecode
+import speech_recognition as sr
+
+# smart_glass = Serial('COM7', 9600)
+RC = sr.Recognizer()
+
+while True:
+    with sr.Microphone() as record:
+        audio_in = RC.record(record, duration=5)
+        try:
+            speech = RC.recognize_google(audio_in, language="vi")
+            print(speech)
+            # TwD = unidecode(speech)
+            # smart_glass.write(TwD.encode())
+        except:
+            print("Can't hear!")
