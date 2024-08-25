@@ -1,0 +1,6 @@
+- This is an idea for smart glasses integrated with artificial intelligence and AR in daily life.
+- This project is a community product aimed at supporting communication, connection, and collaboration between the deaf community and everyone else.
+- The product includes the following main functions:
+  - Supports speech-to-text (or audio) translation
+  - Supports sign language-to-text (or audio) translation
+  - Displays text on the glasses (or transmits audio)
